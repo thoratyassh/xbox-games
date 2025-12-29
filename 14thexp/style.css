@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #107c10;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #0b5e0b;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #084c08;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    width: 260px;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.card img {
+    width: 100%;
+    height: 160px;
+}
+
+button {
+    padding: 5px 15px;
+    background-color: #107c10;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #107c10;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.contact-box {
+    background: white;
+      background-image: url("background.jpg");
+    width: 300px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.footer {
+    background-color: #107c10;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.footer-box {
+    width: 200px;
+    margin: 10px;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("home.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 60px;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    width: 150px;
+    padding: 12px;
+    background-color: #107c10;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+ 
